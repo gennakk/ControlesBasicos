@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ControlesBasicos</string>
+    <string name="ej1txt1">Introduce primer valor</string>
+    <string name="ej1txt2">Introduce segundo valor</string>
+    <string name="ej1btn">Sumar</string>
+    <string name="ej1txt3">La suma es: </string>
+    <string name="ej2btnSum">+</string>
+    <string name="ej2btnRes">-</string>
+    <string name="ej2btnDiv">/</string>
+    <string name="ej2btnMult">*</string>
+    <string name="ej2txt3">Resultado: </string>
+    <string name="bntEncender">Encender</string>
+    <string name="btnApagar">Apagar</string>
+    <string name="ej4txt1">Introduce un DNI: </string>
+    <string name="ej4txt2">Número DNI</string>
+    <string name="ej4txt3">Letra</string>
+    <string name="ej4btnValidar">VALIDAR DNI</string>
+    <string name="ej5btnGoogle">Google</string>
+    <string name="ej5btnYahoo">Yahoo</string>
+    <string name="ej5btnBing">Bing</string>
+</resources>
