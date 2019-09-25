@@ -18,4 +18,10 @@
     <string name="ej5btnGoogle">Google</string>
     <string name="ej5btnYahoo">Yahoo</string>
     <string name="ej5btnBing">Bing</string>
+    <string name="ej6txt1">Camara 1:</string>
+    <string name="ej6txt2">Luz 1:</string>
+    <string name="ej6txt3">Camara 2:</string>
+    <string name="ej6txt4">Luz 2:</string>
+    <string name="ej6btn1">SI</string>
+    <string name="ej6btn2">NO</string>
 </resources>
