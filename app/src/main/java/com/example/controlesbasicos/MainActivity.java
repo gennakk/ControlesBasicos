@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnej4 ;
     private Button btnej5 ;
     private Button btnej6 ;
+    private Button btnej7 ;
 
 
     @Override
@@ -96,6 +97,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,Ejercicio6.class);
+
+                startActivity(intent);
+
+            }
+        });
+
+        btnej7 = findViewById(R.id.buttonej7);
+
+
+        btnej7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Ejercicio7.class);
 
                 startActivity(intent);
 

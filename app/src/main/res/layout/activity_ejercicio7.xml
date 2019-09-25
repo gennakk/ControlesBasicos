@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio7">
+
+    <ToggleButton
+        android:id="@+id/tbtncam1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="44dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="@string/ej7cam1off"
+        android:textOn="@string/ej7cam1on"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/tbtncam2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="44dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="@string/ej7cam2off"
+        android:textOn="@string/ej7cam2on"
+        app:layout_constraintStart_toEndOf="@+id/tbtncam1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvluz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/ej7luz1ontxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbtncam1" />
+
+    <TextView
+        android:id="@+id/tvluz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/ej7luz2ontxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvluz1"
+        app:layout_constraintTop_toBottomOf="@+id/tbtncam2" />
+
+    <Button
+        android:id="@+id/btnluz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/ej7btnapa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvluz1" />
+
+    <Button
+        android:id="@+id/btnluz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/ej7btnapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toEndOf="@+id/btnluz1"
+        app:layout_constraintTop_toBottomOf="@+id/tvluz2" />
+
+    <TextView
+        android:id="@+id/tvtemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/ej7temp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnluz1" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="161dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toEndOf="@+id/tvtemp"
+        app:layout_constraintTop_toBottomOf="@+id/btnluz2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

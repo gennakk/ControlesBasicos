@@ -24,4 +24,15 @@
     <string name="ej6txt4">Luz 2:</string>
     <string name="ej6btn1">SI</string>
     <string name="ej6btn2">NO</string>
+    <string name="ej7cam1on">Cam1 ON</string>
+    <string name="ej7cam2on">Cam2 ON</string>
+    <string name="ej7cam1off">Cam1 OFF</string>
+    <string name="ej7cam2off">Cam2 OFF</string>
+    <string name="ej7luz1ontxt">Luz1 ON</string>
+    <string name="ej7luz2ontxt">Luz2 ON</string>
+    <string name="ej7luz1offtxt">Luz1 OFF</string>
+    <string name="ej7luz2offtxt">Luz2 OFF</string>
+    <string name="ej7btnenc">Encender</string>
+    <string name="ej7btnapa">Apagar</string>
+    <string name="ej7temp">Temperatura: </string>
 </resources>
