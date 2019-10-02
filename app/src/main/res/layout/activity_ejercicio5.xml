@@ -28,7 +28,8 @@
         android:text="@string/ej5btnYahoo"
         app:layout_constraintEnd_toStartOf="@+id/btnBing"
         app:layout_constraintStart_toEndOf="@+id/btnGoogle"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick= "cambiarImagenYahoo"/>
 
     <Button
         android:id="@+id/btnBing"

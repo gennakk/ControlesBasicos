@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class Ejercicio5 extends AppCompatActivity {
+public class Ejercicio5 extends AppCompatActivity implements View.OnClickListener {
 
     private Button btnGoogle,btnYahoo,btnBing;
 
@@ -32,19 +32,17 @@ public class Ejercicio5 extends AppCompatActivity {
             }
         });
 
-        btnYahoo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                imageView.setImageResource(R.drawable.yahoo);
-            }
-        });
 
-        btnBing.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                imageView.setImageResource(R.drawable.bing);
-            }
-        });
+        btnBing.setOnClickListener(this);
 
+    }
+
+    public void cambiarImagenYahoo(View v){
+        imageView.setImageResource(R.drawable.yahoo);
+    }
+
+    @Override
+    public void onClick(View v) {
+        imageView.setImageResource(R.drawable.bing);
     }
 }
